@@ -1,0 +1,14 @@
+{
+  "name": "learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.mjs",
+  "type": "module",
+  "types": "global.d.ts",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.8.10"
+  }
+}
