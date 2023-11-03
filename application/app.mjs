@@ -1,7 +1,7 @@
-import node from "../types/node.mjs";
-import npm from "./npm.mjs";
+import node from './node.mjs';
+import npm from './npm.mjs';
 
-node.fs.readFile("./app.mjs", (error, data) => {
+node.fs.readFile('./application/app.mjs', (error, data) => {
   if (error) {
     console.log({ error });
   } else {

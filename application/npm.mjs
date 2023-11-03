@@ -1,8 +1,8 @@
-import node from "../types/node.mjs";
+import node from './node.mjs';
 
 const npm = {};
 
-const pkgPath = node.path.join(node.process.cwd(), "package.json");
+const pkgPath = node.path.join(node.process.cwd(), 'package.json');
 const pkg = JSON.parse(await node.fsp.readFile(pkgPath));
 
 if (pkg.dependencies) {
